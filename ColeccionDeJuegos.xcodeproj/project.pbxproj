@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD2A30B52097815F00616BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2A30B42097815F00616BEB /* AppDelegate.swift */; };
+		CD2A30B72097815F00616BEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2A30B62097815F00616BEB /* ViewController.swift */; };
+		CD2A30BA2097815F00616BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2A30B82097815F00616BEB /* Main.storyboard */; };
+		CD2A30BD2097815F00616BEB /* ColeccionDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD2A30BB2097815F00616BEB /* ColeccionDeJuegos.xcdatamodeld */; };
+		CD2A30BF2097815F00616BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2A30BE2097815F00616BEB /* Assets.xcassets */; };
+		CD2A30C22097815F00616BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2A30C02097815F00616BEB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD2A30B12097815F00616BEB /* ColeccionDeJuegos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColeccionDeJuegos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2A30B42097815F00616BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD2A30B62097815F00616BEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD2A30B92097815F00616BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD2A30BC2097815F00616BEB /* ColeccionDeJuegos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColeccionDeJuegos.xcdatamodel; sourceTree = "<group>"; };
+		CD2A30BE2097815F00616BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD2A30C12097815F00616BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD2A30C32097815F00616BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD2A30AE2097815F00616BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD2A30A82097815F00616BEB = {
+			isa = PBXGroup;
+			children = (
+				CD2A30B32097815F00616BEB /* ColeccionDeJuegos */,
+				CD2A30B22097815F00616BEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD2A30B22097815F00616BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD2A30B12097815F00616BEB /* ColeccionDeJuegos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD2A30B32097815F00616BEB /* ColeccionDeJuegos */ = {
+			isa = PBXGroup;
+			children = (
+				CD2A30B42097815F00616BEB /* AppDelegate.swift */,
+				CD2A30B62097815F00616BEB /* ViewController.swift */,
+				CD2A30B82097815F00616BEB /* Main.storyboard */,
+				CD2A30BE2097815F00616BEB /* Assets.xcassets */,
+				CD2A30C02097815F00616BEB /* LaunchScreen.storyboard */,
+				CD2A30C32097815F00616BEB /* Info.plist */,
+				CD2A30BB2097815F00616BEB /* ColeccionDeJuegos.xcdatamodeld */,
+			);
+			path = ColeccionDeJuegos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD2A30B02097815F00616BEB /* ColeccionDeJuegos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2A30C62097815F00616BEB /* Build configuration list for PBXNativeTarget "ColeccionDeJuegos" */;
+			buildPhases = (
+				CD2A30AD2097815F00616BEB /* Sources */,
+				CD2A30AE2097815F00616BEB /* Frameworks */,
+				CD2A30AF2097815F00616BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColeccionDeJuegos;
+			productName = ColeccionDeJuegos;
+			productReference = CD2A30B12097815F00616BEB /* ColeccionDeJuegos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD2A30A92097815F00616BEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Tecsup;
+				TargetAttributes = {
+					CD2A30B02097815F00616BEB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD2A30AC2097815F00616BEB /* Build configuration list for PBXProject "ColeccionDeJuegos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD2A30A82097815F00616BEB;
+			productRefGroup = CD2A30B22097815F00616BEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD2A30B02097815F00616BEB /* ColeccionDeJuegos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD2A30AF2097815F00616BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2A30C22097815F00616BEB /* LaunchScreen.storyboard in Resources */,
+				CD2A30BF2097815F00616BEB /* Assets.xcassets in Resources */,
+				CD2A30BA2097815F00616BEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD2A30AD2097815F00616BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2A30B72097815F00616BEB /* ViewController.swift in Sources */,
+				CD2A30B52097815F00616BEB /* AppDelegate.swift in Sources */,
+				CD2A30BD2097815F00616BEB /* ColeccionDeJuegos.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD2A30B82097815F00616BEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2A30B92097815F00616BEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD2A30C02097815F00616BEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2A30C12097815F00616BEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD2A30C42097815F00616BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD2A30C52097815F00616BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD2A30C72097815F00616BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColeccionDeJuegos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.ColeccionDeJuegos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD2A30C82097815F00616BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColeccionDeJuegos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.ColeccionDeJuegos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD2A30AC2097815F00616BEB /* Build configuration list for PBXProject "ColeccionDeJuegos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2A30C42097815F00616BEB /* Debug */,
+				CD2A30C52097815F00616BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2A30C62097815F00616BEB /* Build configuration list for PBXNativeTarget "ColeccionDeJuegos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2A30C72097815F00616BEB /* Debug */,
+				CD2A30C82097815F00616BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD2A30BB2097815F00616BEB /* ColeccionDeJuegos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD2A30BC2097815F00616BEB /* ColeccionDeJuegos.xcdatamodel */,
+			);
+			currentVersion = CD2A30BC2097815F00616BEB /* ColeccionDeJuegos.xcdatamodel */;
+			path = ColeccionDeJuegos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD2A30A92097815F00616BEB /* Project object */;
+}
